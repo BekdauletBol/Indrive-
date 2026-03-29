@@ -12,3 +12,9 @@
 - Flags AI-generated essays and equity factors (first-generation students)
 - Produces a ranked shortlist — all decisions remain with the human committee
 
+** Run
+''
+cd backend
+python3 -m pip install -r requirements.txt
+python3 -m uvicorn app.main:app --reload
+''
