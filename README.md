@@ -12,12 +12,3 @@
 - Flags AI-generated essays and equity factors (first-generation students)
 - Produces a ranked shortlist — all decisions remain with the human committee
 
-## Architecture
-
-```
-React dashboard  ──┐
-Telegram bot     ──┤──▶  FastAPI backend  ──▶  Scoring engine  ──▶  PostgreSQL / Redis
-Candidate portal ──┘                               │
-                                            SHAP-style explanation
-```
-
